@@ -1,0 +1,120 @@
+﻿Сборка начата 30.07.2015 14:08:22.
+     1>Проект "D:\cppdx_projects\Gravity_modelling_projects\Gravity_modelling_v2.0\Gravity_modelling\Gravity_modelling.vcxproj" в узле 2 (целевые объекты Build).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Release\) contains files shared from another project (Gravity_modelling.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /Zp16 /GS /Gy /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Render.cpp
+         Render.cpp
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\dxgitype.h(12): warning C4005: DXGI_STATUS_OCCLUDED: изменение макроопределения
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10069.0\shared\winerror.h(51172): note: см. предыдущее определение "DXGI_STATUS_OCCLUDED"
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\dxgitype.h(13): warning C4005: DXGI_STATUS_CLIPPED: изменение макроопределения
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10069.0\shared\winerror.h(51181): note: см. предыдущее определение "DXGI_STATUS_CLIPPED"
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\dxgitype.h(14): warning C4005: DXGI_STATUS_NO_REDIRECTION: изменение макроопределения
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10069.0\shared\winerror.h(51190): note: см. предыдущее определение "DXGI_STATUS_NO_REDIRECTION"
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\dxgitype.h(15): warning C4005: DXGI_STATUS_NO_DESKTOP_ACCESS: изменение макроопределения
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10069.0\shared\winerror.h(51199): note: см. предыдущее определение "DXGI_STATUS_NO_DESKTOP_ACCESS"
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\dxgitype.h(16): warning C4005: DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE: изменение макроопределения
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10069.0\shared\winerror.h(51208): note: см. предыдущее определение "DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE"
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\dxgitype.h(17): warning C4005: DXGI_STATUS_MODE_CHANGED: изменение макроопределения
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10069.0\shared\winerror.h(51217): note: см. предыдущее определение "DXGI_STATUS_MODE_CHANGED"
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\dxgitype.h(18): warning C4005: DXGI_STATUS_MODE_CHANGE_IN_PROGRESS: изменение макроопределения
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10069.0\shared\winerror.h(51226): note: см. предыдущее определение "DXGI_STATUS_MODE_CHANGE_IN_PROGRESS"
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\dxgitype.h(21): warning C4005: DXGI_ERROR_INVALID_CALL: изменение макроопределения
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10069.0\shared\winerror.h(51241): note: см. предыдущее определение "DXGI_ERROR_INVALID_CALL"
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\dxgitype.h(22): warning C4005: DXGI_ERROR_NOT_FOUND: изменение макроопределения
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10069.0\shared\winerror.h(51250): note: см. предыдущее определение "DXGI_ERROR_NOT_FOUND"
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\dxgitype.h(23): warning C4005: DXGI_ERROR_MORE_DATA: изменение макроопределения
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10069.0\shared\winerror.h(51259): note: см. предыдущее определение "DXGI_ERROR_MORE_DATA"
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\dxgitype.h(24): warning C4005: DXGI_ERROR_UNSUPPORTED: изменение макроопределения
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10069.0\shared\winerror.h(51268): note: см. предыдущее определение "DXGI_ERROR_UNSUPPORTED"
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\dxgitype.h(25): warning C4005: DXGI_ERROR_DEVICE_REMOVED: изменение макроопределения
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10069.0\shared\winerror.h(51277): note: см. предыдущее определение "DXGI_ERROR_DEVICE_REMOVED"
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\dxgitype.h(26): warning C4005: DXGI_ERROR_DEVICE_HUNG: изменение макроопределения
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10069.0\shared\winerror.h(51286): note: см. предыдущее определение "DXGI_ERROR_DEVICE_HUNG"
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\dxgitype.h(27): warning C4005: DXGI_ERROR_DEVICE_RESET: изменение макроопределения
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10069.0\shared\winerror.h(51296): note: см. предыдущее определение "DXGI_ERROR_DEVICE_RESET"
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\dxgitype.h(28): warning C4005: DXGI_ERROR_WAS_STILL_DRAWING: изменение макроопределения
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10069.0\shared\winerror.h(51305): note: см. предыдущее определение "DXGI_ERROR_WAS_STILL_DRAWING"
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\dxgitype.h(29): warning C4005: DXGI_ERROR_FRAME_STATISTICS_DISJOINT: изменение макроопределения
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10069.0\shared\winerror.h(51315): note: см. предыдущее определение "DXGI_ERROR_FRAME_STATISTICS_DISJOINT"
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\dxgitype.h(30): warning C4005: DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE: изменение макроопределения
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10069.0\shared\winerror.h(51324): note: см. предыдущее определение "DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE"
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\dxgitype.h(31): warning C4005: DXGI_ERROR_DRIVER_INTERNAL_ERROR: изменение макроопределения
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10069.0\shared\winerror.h(51334): note: см. предыдущее определение "DXGI_ERROR_DRIVER_INTERNAL_ERROR"
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\dxgitype.h(32): warning C4005: DXGI_ERROR_NONEXCLUSIVE: изменение макроопределения
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10069.0\shared\winerror.h(51343): note: см. предыдущее определение "DXGI_ERROR_NONEXCLUSIVE"
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\dxgitype.h(33): warning C4005: DXGI_ERROR_NOT_CURRENTLY_AVAILABLE: изменение макроопределения
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10069.0\shared\winerror.h(51352): note: см. предыдущее определение "DXGI_ERROR_NOT_CURRENTLY_AVAILABLE"
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\dxgitype.h(34): warning C4005: DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED: изменение макроопределения
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10069.0\shared\winerror.h(51362): note: см. предыдущее определение "DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED"
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\dxgitype.h(35): warning C4005: DXGI_ERROR_REMOTE_OUTOFMEMORY: изменение макроопределения
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10069.0\shared\winerror.h(51371): note: см. предыдущее определение "DXGI_ERROR_REMOTE_OUTOFMEMORY"
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\d3d11.h(917): warning C4005: D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS: изменение макроопределения
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10069.0\shared\winerror.h(51576): note: см. предыдущее определение "D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS"
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\d3d11.h(918): warning C4005: D3D11_ERROR_FILE_NOT_FOUND: изменение макроопределения
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10069.0\shared\winerror.h(51585): note: см. предыдущее определение "D3D11_ERROR_FILE_NOT_FOUND"
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\d3d11.h(919): warning C4005: D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS: изменение макроопределения
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10069.0\shared\winerror.h(51595): note: см. предыдущее определение "D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS"
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\d3d11.h(920): warning C4005: D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD: изменение макроопределения
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10069.0\shared\winerror.h(51604): note: см. предыдущее определение "D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD"
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\d3d10.h(608): warning C4005: D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS: изменение макроопределения
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10069.0\shared\winerror.h(51552): note: см. предыдущее определение "D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS"
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\d3d10.h(609): warning C4005: D3D10_ERROR_FILE_NOT_FOUND: изменение макроопределения
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10069.0\shared\winerror.h(51561): note: см. предыдущее определение "D3D10_ERROR_FILE_NOT_FOUND"
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\Xnamath.h(2662): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\Xnamath.h(2663): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\Xnamath.h(2664): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\Xnamath.h(2665): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\Xnamath.h(2666): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\Xnamath.h(2667): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\Xnamath.h(2668): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\Xnamath.h(2689): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\Xnamath.h(2690): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\Xnamath.h(2691): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\Xnamath.h(2694): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\Xnamath.h(2695): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\Xnamath.h(2698): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\Xnamath.h(2702): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\Xnamath.h(2712): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\Xnamath.h(2713): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\Xnamath.h(2715): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\Xnamath.h(2716): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\Xnamath.h(2717): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\Xnamath.h(2727): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\Xnamath.h(2728): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\Xnamath.h(2729): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\Xnamath.h(2730): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\Xnamath.h(2731): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\Xnamath.h(2732): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\Xnamath.h(2742): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\Xnamath.h(2743): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>C:\Program Files (x86)\Windows Kits\10\Include\10.0.10056.0\ucrt\Xnamath.h(2754): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\xnamathconvert.inl(2254): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\xnamathconvert.inl(4523): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\xnamathconvert.inl(4577): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\xnamathconvert.inl(4639): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\xnamathconvert.inl(4707): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\xnamathconvert.inl(4770): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\xnamathconvert.inl(4832): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\xnamathmisc.inl(518): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>c:\program files (x86)\windows kits\10\include\10.0.10056.0\ucrt\xnamathmisc.inl(519): warning C4838: преобразование из "unsigned int" в "INT" требует сужающего преобразования
+     1>Render.cpp(175): warning C4018: <: несоответствие типов со знаком и без знака
+     1>Render.cpp(339): warning C4018: <: несоответствие типов со знаком и без знака
+     1>Render.cpp(343): warning C4244: =: преобразование "long double" в "float", возможна потеря данных
+     1>Render.cpp(344): warning C4244: =: преобразование "long double" в "float", возможна потеря данных
+     1>Render.cpp(345): warning C4244: =: преобразование "long double" в "float", возможна потеря данных
+     1>Render.cpp(349): warning C4018: <: несоответствие типов со знаком и без знака
+     1>Render.cpp(351): warning C4244: =: преобразование "long double" в "float", возможна потеря данных
+     1>Render.cpp(352): warning C4244: =: преобразование "long double" в "float", возможна потеря данных
+     1>Render.cpp(353): warning C4244: =: преобразование "long double" в "float", возможна потеря данных
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\cppdx_projects\Gravity_modelling_projects\Gravity_modelling_v2.0\Release\Gravity.exe" /INCREMENTAL:NO /NOLOGO d3d11.lib D3dx11.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\cppdx_projects\Gravity_modelling_projects\Gravity_modelling_v2.0\Release\Gravity.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\cppdx_projects\Gravity_modelling_projects\Gravity_modelling_v2.0\Release\Gravity.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Release\Physic_object.obj
+         Release\Render.obj
+         Создание кода
+         Создание кода завершено
+         Gravity_modelling.vcxproj -> D:\cppdx_projects\Gravity_modelling_projects\Gravity_modelling_v2.0\Release\Gravity.exe
+     1>Сборка проекта "D:\cppdx_projects\Gravity_modelling_projects\Gravity_modelling_v2.0\Gravity_modelling\Gravity_modelling.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:05.46

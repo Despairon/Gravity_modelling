@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{b496b8de-241a-47ac-abde-64e912a97bef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physic_object">
+      <UniqueIdentifier>{cb6b2abc-77ed-45d1-b968-38ad708f8f68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="D3DRender">
+      <UniqueIdentifier>{821cc5ad-d96b-4862-99ac-ad5f28f6e641}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h" />
+    <ClInclude Include="Physic_object.h">
+      <Filter>Physic_object</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>D3DRender</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Physic_object.cpp">
+      <Filter>Physic_object</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>D3DRender</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Direct2Dtest\Direct2Dtest\input_keys.txt" />
+    <None Include="Shaders.fx" />
+  </ItemGroup>
+</Project>
