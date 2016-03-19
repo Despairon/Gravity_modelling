@@ -10,8 +10,11 @@ enter - enable fullscreen;
 mouse - look up/down/left/right;
 w/a/s/d - move;
 shift - toggle 3x speed acceleration;
-1 - create gravity center with mass 10^15 kg's;
-2 - create object in random place with mass 10^6 kg's;
+pageUp - increase mass coefficient;
+pageDown - decrease mass coefficient;
+(mass coefficient defines the mass of the object to be created. The mass will be like 10^coeff. It changes with step 1)
+1 - create gravity center with defined mass (in development);
+2 - create object in random place with defined mass (in development);
 3 - turn on the gravity;
 esc - exit.
 
